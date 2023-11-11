@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     background-image: url(web-development-coding-programming-site-application-laptop_272306-16.avif);
     background-size: cover;
     background-attachment: fixed;
@@ -9,7 +8,6 @@ body{
     box-shadow: inset 300px 900px 600px rgb(14, 2, 59);
 }
 .principalContainer{
-    width: 100%;
     margin-top: 0px;
     display: flex;
     justify-content: center;
@@ -23,7 +21,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: -30px;
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +60,7 @@ h1{
     position: relative;
     width: 100%;
     height: 50%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .logocurso{
@@ -124,13 +122,13 @@ animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s bo
 main{
     margin-top: 25px;
     max-width: 1500px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 40px 8px;
-
+    width: 100%;
 }
 
 .mainContainerLeft{
@@ -152,7 +150,7 @@ main{
     max-width: 300px;
     height: 280px;
     border: solid 2px rgba(0, 0, 48, 0.658);
-    box-shadow: inset 2px 2px 250px black;
+    box-shadow: inset 8px 8px 250px rgb(0, 0, 0);
     margin: 4px;
     padding: 10px;
     border-radius: 24px;
@@ -174,7 +172,7 @@ main{
     max-width: 300px;
     height: 280px;
     border: solid 2px rgba(0, 0, 48, 0.658);
-    box-shadow: inset 2px 2px 250px black;
+    box-shadow: inset 8px 8px 250px rgb(0, 0, 0);
     margin: 4px;
     padding: 10px;
     border-radius: 24px;
@@ -195,7 +193,7 @@ main{
     max-width: 300px;
     height: 280px;
     border: solid 2px rgba(0, 0, 48, 0.658);
-    box-shadow: inset 2px 2px 250px black;
+    box-shadow: inset 8px 8px 250px rgb(0, 0, 0);
     margin: 4px;
     padding: 10px;
     border-radius: 24px;
@@ -216,7 +214,7 @@ main{
     max-width: 300px;
     height: 280px;
     border: solid 2px rgba(0, 0, 48, 0.658);
-    box-shadow: rgb(0, 0, 27) 2px 2px 2px;
+    box-shadow: inset 8px 8px 250px rgb(0, 0, 0);
     margin: 4px;
     padding: 10px;
     border-radius: 24px;
@@ -351,7 +349,7 @@ a{
 
 .iconos img{
     border-radius: 100%;
-    width: 50px;
+    width: 35px;
     -webkit-animation: scale-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4.5s both;
 	animation: scale-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4.5s both;
 }
@@ -375,7 +373,8 @@ a{
 }
 
 .quiensoy p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin: 24px;
 }
 
 .intquiensoy{
